@@ -66,11 +66,11 @@
     "savoir_etre": [
         {
             "name": "Organisation",
-            "description": "Une bonne préparation en amont maximise les chances de succès d'un projet."
+            "description": "Esprit d'équipe"
         },
         {
             "name": "Communication",
-            "description": "Favoriser une compréhension partagée entre les parties prenantes du projet."
+            "description": ""
         }
     ],
 
