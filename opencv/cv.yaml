@@ -1,0 +1,114 @@
+cv:
+  name: Romain MEUTER
+  location: Montpellier, France
+  email: r.meuter@hotmail.com
+  phone: tel:+33-7-67-53-82-44
+
+  social_networks:
+    - network: LinkedIn
+      username: rmeuter
+    - network: GitHub
+      username: universmotion
+
+  sections:
+    introduction:
+      - Actuellement à la recherche d'un **poste de Data Scientist** ou de **missions freelance**.
+
+    experience:
+      - company: "[Edupro](https://www.etupro.fr/)"
+        position: Data Scientist
+        location: Montpellier, France
+        start_date: 2024-03
+        highlights:
+          - Développement d'un projet de scraping intelligent, impliquant la résolution de problèmes d'OCR, de reconnaissance d'entités nommées (NER) et de mise en correspondance.
+          - "Gestion de projet : définition des processus et création d'un diagramme BPMN pour l'application."
+
+      - company: Lytn
+        position: Lead Data Scientist
+        location: Montpellier, France
+        start_date: 2022-09
+        end_date: 2023-12
+        highlights:
+          - Réorganisation de la stratégie/gestion de projet Data Science, interlocuteur principal avec le LIRMM, et gestion d'un Data Scientist junior.
+          - Résolution de problèmes en théorie des graphes, séries temporelles et panel à l'aide d'outils de machine learning et deep learning. Gestion des services Cloud sur AWS et GCP.
+
+      - company: Lytn
+        position: Data Scientist
+        location: Montpellier, France
+        start_date: 2020-09
+        end_date: 2022-09
+        highlights:
+          - Interlocuteur principal avec le LIRMM.
+          - Résolution de problèmes en théorie des graphes, séries temporelles et panel via des outils de machine learning et deep learning. Gestion des services Cloud sur AWS.
+
+    formation:
+      - position: Datascientest
+        company: Master 1 (équivalent)
+        start_date: 2024-04
+        end_date: 2024-11
+        highlights:
+          - "Cours: Kubernetes (Helm), Aiflow, CI/CD, pytest, MlFlow, DVC."
+      - position: Université de Montpellier 3
+        company: Master MIASHS (mention bien)
+        start_date: 2020-09
+        end_date: 2022-09
+        highlights:
+          - "Cours principaux : Deep Learning, statistiques avancées, machine learning."
+          - "Gestion, méthodes et algorithme selon le types de données: textuelles, spatiales, temporelles et images."
+          - "Divers: Visualisation avancées (D3), Parallélisation/optimisation"
+
+    projets:
+      - name: Projet MLOps
+        date: '[API](https://github.com/universmotion/mai24_cmlops_film)'
+        highlights:
+          - "Construction d'une API de recommandation de films avec des outils tels que : Airflow, Kubernetes, PostgreSQL, FastAPI, Prometheus/Grafana, DVC."
+
+      - name: Base de données d'articles de recherche
+        date: '[Ceebios](https://github.com/ceebios/d4g-season-10)'
+        highlights:
+          - Site web pour la recherche d'articles utilisant des méthodes Q/A en machine learning, développé via Data For Good.
+          - Utilisation d'outils comme OpenSearch (base de données vectorielle) et des bibliothèques comme Transformers, Scrapy, NLTK, Scapy. Gestion des services Cloud sur GCP.
+
+    technologies:
+      - label: Langage de programmation
+        details: Python (8 ans), Scala (1 an), JavaScript/HTML/CSS (5 ans)
+      - label: Technologies
+        details: VsCode, Postgres (4 ans), MySql (1 ans)
+      - label: Cloud
+        details: AWS (3 ans), GCP (1 ans)
+design:
+  theme: sb2nov
+  font: Latin Modern Serif
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: true
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: true
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 24 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm

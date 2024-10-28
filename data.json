@@ -1,0 +1,163 @@
+{
+    "profile_image": "assets/pictures/profile.jpeg",
+    "name": "Romain",
+    "last_name": "Meuter",
+    "profession": "Consultant freelance en Data Science",
+    "location": "Montpellier, France",
+    "email": "r.meuter@hotmail.com",
+    "phone": "+33767538244",
+    "github_link": "https://github.com/universmotion",
+    "github_username": "@universmotion",
+    "linkedin_link": "https://www.linkedin.com/in/rmeuter/",
+    "linkedin_username": "rmeuter",
+    "profile_description": "Fort de trois années d'expérience en Data Science, je suis actuellement à la recherche d'opportunités freelance. Mon expertise couvre un large éventail de techniques de machine learning et de gestion de données.",
+
+    "title_name":{
+        "competences" : "Compétences", 
+        "langues": "Langues",
+        "intro" : "Présentation", 
+        "savoir_etre" : "Top des savoir-êtres",
+        "work": "Expériences",
+        "formation": "Formations",
+        "project": "Projets",
+        "hobbies": "Centres d'intérêt"
+    },
+
+    "competences": [
+        {
+            "name": "Langages informatiques",
+            "comp_list": [
+                { "name": "Python", "years": 8 },
+                { "name": "Java", "years": 3 },
+                { "name": "Scala", "years": 2 },
+                { "name": "HTML, CSS, JS", "years": 2 },
+                { "name": "C++", "years": 1 }
+            ]
+        },
+        {
+            "name": "Frameworks principaux",
+            "comp_list": [
+                { "name": "Numpy, Pandas, Sklearn, Torch, Transformers, igraph, Darts, Statsmodels", "years": 5 },
+                { "name": "FastAPI", "years": 2 }
+            ]
+        },
+        {
+            "name": "MLOps",
+            "comp_list": [
+                { "name": "Git", "years": 6 },
+                { "name": "Kubernetes, Helm", "years": 2 },
+                { "name": "Airflow", "years": 1 }
+            ]
+        },
+        {
+            "name": "Cloud",
+            "comp_list": [
+                { "name": "AWS", "years": 4 },
+                { "name": "GCP", "years": 1 }
+            ]
+        }
+    ],
+
+    "langues": [
+        { "name": "Français", "level": "C2" },
+        { "name": "Anglais", "level": "B2" }
+    ],
+
+    "savoir_etre": [
+        {
+            "name": "Organisation",
+            "description": "Une bonne préparation en amont maximise les chances de succès d'un projet."
+        },
+        {
+            "name": "Communication",
+            "description": "Favoriser une compréhension partagée entre les parties prenantes du projet."
+        }
+    ],
+
+    "experiences": [
+        {
+            "title": "Data Scientist (Bénévole - Full remote)",
+            "company": "EduPro",
+            "location": "France",
+            "start_date": "Mars 2024",
+            "end_date": "Présent",
+            "description": [
+                "Développement d'un projet de scraping intelligent, intégrant des techniques d'OCR, NER, et de mise en correspondance.",
+                "Gestion de projet : définition des processus et création d'un diagramme BPMN."
+            ]
+        },
+        {
+            "title": "Lead Data Scientist",
+            "company": "Lytn",
+            "location": "France",
+            "start_date": "Sep. 2022",
+            "end_date": "Déc. 2023",
+            "description": [
+                "Réorganisation de la stratégie et gestion de projet Data Science, gestion d'un Data Scientist junior.",
+                "Utilisation des techniques de graphes, séries temporelles, et machine learning avancé. Gestion des services Cloud sur AWS et GCP."
+            ]
+        },
+        {
+            "title": "Data Scientist",
+            "company": "Lytn",
+            "location": "France",
+            "start_date": "Sep. 2020",
+            "end_date": "Sep. 2022",
+            "description": [
+                "Référence pour les interactions avec le LIRMM.",
+                "Application de méthodes avancées de machine learning et deep learning pour les graphes, séries temporelles, et panels. Gestion des services Cloud sur AWS."
+            ]
+        }
+    ],
+
+    "educations": [
+        {
+            "title": "Master en Mathématiques et Informatique appliquées",
+            "location": "Montpellier, France",
+            "institution": "Université Montpellier 3",
+            "start_date": "2020",
+            "end_date": "2022",
+            "description": [
+                "Cours principaux : Deep Learning, statistiques avancées, machine learning.",
+                "Techniques de gestion, méthodes et algorithmes adaptés aux données de graphes, textuelles, spatiales, temporelles, et visuelles.",
+                "Compétences diverses : Visualisation avancée (D3), parallélisation/optimisation."
+            ]
+        },
+        {
+            "title": "Formation ML Ops",
+            "location": "France",
+            "institution": "Datascientest",
+            "start_date": "Mars 2024",
+            "end_date": "Oct. 2024",
+            "description": [
+                "Cours : Kubernetes (Helm), Airflow, CI/CD, pytest, MLflow, DVC."
+            ]
+        }
+    ],
+
+    "projects": [
+        {
+            "title": "Projet de formation ML Ops",
+            "url": "https://github.com/universmotion/mai24_cmlops_film",
+            "date": "Sep. 2024",
+            "description": [
+                "Construction d'une API de recommandation de films utilisant : Airflow, Kubernetes, PostgreSQL, FastAPI, Prometheus/Grafana, DVC."
+            ]
+        },
+        {
+            "title": "Base de données d'articles de recherche",
+            "url": "https://github.com/ceebios/d4g-season-10",
+            "date": "Fév. - Mai 2022",
+            "description": [
+                "Développement d'un site de recherche d'articles utilisant des méthodes de Q/R en machine learning.",
+                "Outils : OpenSearch, Transformers, Scrapy, NLTK, Scapy. Gestion des services Cloud sur GCP."
+            ]
+        }
+    ],
+
+    "interests": [
+        { "icon": "tactic", "name": "Jeux de logique" },
+        { "icon": "theater_comedy", "name": "Théâtre d'improvisation" },
+        { "icon": "hiking", "name": "Sports de montagne" }
+    ]
+}

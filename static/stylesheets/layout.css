@@ -1,0 +1,95 @@
+/* Google Font Poppins */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+/* Variables */
+:root {
+    --header-height: 3rem;
+
+    /* Colors */
+    --title-color: #0B0A0A;
+    --text-color: #403A3A;
+    --text-color-light: #707070;
+    --container-color: #FAFAFA;
+    --container-color-alt: #F0EFEF;
+    --body-color: #FCFCFC;
+
+    /* Typography */
+    --body-font: 'Poppins', sans-serif;
+
+    /* Fonts size */
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+
+    /* Fonts weight */
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /* Margins */
+    --margin-1: .5rem;
+    --margin-2: 1rem;
+    --margin-3: 1.5rem;
+
+    /* Z Index */
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+#aera-cv {
+    width: 100%;
+    height: auto;
+    max-width: 793px;  
+    max-height: 1122px; 
+    aspect-ratio: 793 / 1122; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: #0B0A0A;
+  }
+
+body {
+    font-size: 12px;
+    font-family: var(--body-font);
+}
+
+h4{
+    font-size: 16px;
+    font-family: var(--body-font);
+    /* text-decoration: underline; */
+    font-weight: bold;
+}
+
+h6{
+    font-size: 14px;
+    font-family: var(--body-font);
+}
+
+
+
+.left_container{
+    text-align: center;
+    color:#000000;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.symbole-cv{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 40
+}
