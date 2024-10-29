@@ -88,13 +88,13 @@
             <section class="col-8 p-4">
                 <div class="row">
                     <span class="col-1 material-symbols-outlined symbole-cv"> chevron_right </span>
-                    <h4 class="col-11 pb-2"> {{ title_name.intro }} </h4>
+                    <h4 class="col-11 title-padding"> {{ title_name.intro }} </h4>
                     <p class="col-12">{{ profile_description }}</p>
                 </div>
                 <!-- #### #### #### #### #### #### SAVOIR-ETRE #### #### #### #### #### #### -->
-                <div class="row">
+                <!-- <div class="row">
                     <span class="col-1 material-symbols-outlined symbole-cv"> person </span>
-                    <h4 class="col-11 pb-2"> {{ title_name.savoir_etre }} </h4>
+                    <h4 class="col-11 title-padding"> {{ title_name.savoir_etre }} </h4>
                     <ul class="col-12">
                         {% for se in savoir_etre %}
                         {% if loop.index % 2 == 0 %}
@@ -118,11 +118,11 @@
                         {% endif %}
                         {% endfor %}
                     </ul>
-                </div>
+                </div> -->
                 <!-- #### #### #### #### #### #### Expériences #### #### #### #### #### #### -->
                 <div class="row">
                     <span class="col-1 material-symbols-outlined symbole-cv"> work </span>
-                    <h4 class="col-11 pb-2"> {{ title_name.work }} </h4>
+                    <h4 class="col-11 title-padding"> {{ title_name.work }} </h4>
                     <ul>
                         {% for expe in experiences %}
                         <li class="row">
@@ -142,7 +142,7 @@
                                     {{ expe.start_date }} - {{ expe.end_date }}</em>
                                 </div>
                             </div>
-                            <div class="row pt-3 pb-2">
+                            <div class="row pt-1 pb-2">
                                 <ul class="list-unstyled">
                                     {% for desc in expe.description %}
                                     <li>
@@ -160,7 +160,7 @@
                 <!-- #### #### #### #### #### #### Expériences #### #### #### #### #### #### -->
                 <div class="row">
                     <span class="col-1 material-symbols-outlined symbole-cv"> import_contacts </span>
-                    <h4 class="col-11 pb-2"> {{ title_name.formation }} </h4>
+                    <h4 class="col-11 title-padding"> {{ title_name.formation }} </h4>
                     <ul>
                         {% for edu in educations %}
                         <li class="row">
@@ -180,7 +180,7 @@
                                     {{ edu.start_date }} - {{ edu.end_date }}</em>
                                 </div>
                             </div>
-                            <div class="row pt-2 pb-2">
+                            <div class="row pt-1 pb-2">
                                 <ul class="list-unstyled">
                                     {% for desc in edu.description %}
                                     <li>
@@ -198,7 +198,7 @@
                 <!-- #### #### #### #### #### #### PROJET #### #### #### #### #### #### -->
                 <div class="row">
                     <span class="col-1 material-symbols-outlined symbole-cv"> deployed_code </span>
-                    <h4 class="col-11 pb-2"> {{ title_name.project }} </h4>
+                    <h4 class="col-11 title-padding"> {{ title_name.project }} </h4>
                     <ul>
                         {% for proj in projects %}
                         <li class="row">
@@ -229,7 +229,7 @@
                 <!-- #### #### #### #### #### #### Expériences #### #### #### #### #### #### -->
                 <div class="row">
                     <span class="col-1 material-symbols-outlined symbole-cv"> favorite </span>
-                    <h4 class="col-11 pb-2">{{ title_name.hobbies }}</h4>
+                    <h4 class="col-11 title-padding">{{ title_name.hobbies }}</h4>
                     <div class="row">
                         {% for inte in interests %}
                         <div class="col-4 text-center">
